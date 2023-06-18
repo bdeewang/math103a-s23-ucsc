@@ -1,0 +1,20 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{BMPS}
+
+\bibitem[BC09]{brown2009complex}
+J.~Brown and R.~Churchill, \emph{{Complex Variables and Applications}}, Brown
+  and Churchill series, McGraw-Hill Education, 2009.
+
+\bibitem[BMPS]{complex-notes}
+M.~Beck, G.~Marchesi, D.~Pixton, and L.~Sabalka, \emph{{A First Course in
+  Complex Analysis}},
+  \href{https://matthbeck.github.io/complex.html}{\color{darkblue}Available
+  online}, [Version 1.54].
+
+\end{thebibliography}

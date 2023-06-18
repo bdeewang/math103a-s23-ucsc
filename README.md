@@ -1,2 +1,2 @@
-# math103a-s23-ucsc
- 
+# MATH 103A, Spring 2023, UCSC 
+Lecture Notes

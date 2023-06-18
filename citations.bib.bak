@@ -1,0 +1,18 @@
+@book{brown2009complex,
+  title="{Complex Variables and Applications}",
+  author={Brown, J. and Churchill, R.},
+  isbn={9780073051949},
+  lccn={2007043490},
+  series={Brown and Churchill series},
+  url={https://books.google.com/books?id=ytJFAQAAIAAJ},
+  year={2009},
+  publisher={McGraw-Hill Education}
+}
+
+@misc{complex-notes,
+  author = {Matthias Beck, Gerald Marchesi, Dennis Pixton, Lucas Sabalka},
+  title = {{BWorld Robot Control Software}},
+  howpublished = "\url{http://aiweb.techfak.uni-bielefeld.de/content/bworld-robot-control-software/}",
+  year = {2008}, 
+  note = "[Online; accessed 19-July-2008]"
+}

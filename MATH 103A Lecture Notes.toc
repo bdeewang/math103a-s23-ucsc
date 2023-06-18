@@ -1,0 +1,30 @@
+\contentsline {section}{\numberline {1}Part I. Preliminaries}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Construction of the (field of) Complex Numbers}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Geometric Properties of Complex Numbers}{6}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Roots of Complex Numbers}{15}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Basic Topology of $\mathbf C$}{18}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Part II. Holomorphic Functions}{22}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Complex Functions}{22}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Limits of Functions}{23}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Theorems on Limits}{26}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Continuous Functions}{30}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Complex-Differentiable Functions}{32}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Cauchy-Riemann Equations}{35}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Holomorphic Functions}{40}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}The Exponential Function}{42}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}The Logarithmic Function}{43}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Power and Exponential Functions}{48}{subsection.2.10}%
+\contentsline {subsection}{\numberline {2.11}Trigonometric Functions}{49}{subsection.2.11}%
+\contentsline {section}{\numberline {3}Part III. Integration}{52}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Derivatives of Functions of a Real-variable}{52}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Integral of $\gamma :[a,b] \to \mathbf C$}{54}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Contours}{55}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Contour Integration}{59}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Estimating Contour Integrals}{66}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Antiderivatives \& Fundamental Theorem of Contour Integrals}{69}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Cauchy-Goursat Theorem}{75}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Simply Connected Domains}{79}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.9}Multiply Connected Domains}{80}{subsection.3.9}%
+\contentsline {subsection}{\numberline {3.10}Cauchy's Integral Formula}{85}{subsection.3.10}%
+\contentsline {subsection}{\numberline {3.11}Liouville's Theorem and the Fundamental Theorem of Algebra}{90}{subsection.3.11}%
+\contentsline {section}{\numberline {A}Problems}{93}{appendix.A}%

@@ -1,0 +1,206 @@
+\input{Sections/Preamble}
+ 
+\begin{document}
+ 
+% --------------------------------------------------------------
+%                         Start here
+% --------------------------------------------------------------
+ 
+\begin{titlepage}
+    \centering
+    \vspace*{\fill}
+
+	\vspace{-2in}
+
+    {\Huge
+    \textsc{Lecture Notes}}\\
+
+    \vspace{0.1in}
+	{\Large
+	\textsc{Math 103A --- Spring 2023\\[0.5em] Complex Analysis}}\\
+	\vspace{0.5in}    
+    {\Large
+    \textsl{University of California, Santa Cruz}}
+	
+    \vspace*{0.5in}
+
+	{\LARGE    
+    \textbf{\textsc{Deewang Bhamidipati}}}
+	
+    \vspace*{0.5in}
+
+%	{{\large adapted from}\\[0.1em]
+%	\Large    
+%    Lectures by
+%	\textsc{Jadyn Breland}\\[0.1em]
+%	{\normalsize\textsc{Winter 2021}}
+%
+%	\vspace*{0.2in}	
+	{\large
+	(all errors introduced are my own)}
+%	}
+
+	\vspace*{\fill}
+	{\normalsize    
+    \textsl{Last Updated: \today}}
+%    \textsl{Last Updated: \monthyeardate\today}}
+    \end{titlepage}
+    
+\tableofcontents
+\pagebreak
+
+\input{Sections/Section 1}
+\newpage
+
+\input{Sections/Section 2}
+\newpage
+
+\input{Sections/Section 3}
+\newpage
+
+%\section{Lecture 1 (4/03)}
+%\input{Lectures/Lecture 1}
+%\newpage
+%
+%\section{Lecture 2 (4/05)}
+%\input{Lectures/Lecture 2}
+%\newpage
+%
+%\section{Lecture 3 (4/07)}
+%\input{Lectures/Lecture 3}
+%\newpage
+%
+%\section{Lecture 4 (4/10)}
+%\input{Lectures/Lecture 4}
+%\newpage
+%
+%\section{Lecture 5 (4/12)}
+%\input{Lectures/Lecture 5}
+%\newpage
+%
+%\section{Lecture 6 (4/14)}
+%\input{Lectures/Lecture 6}
+%\newpage
+%
+%\section{Lecture 7 (4/17)}
+%\input{Lectures/Lecture 7}
+%\newpage
+%
+%\section{Lecture 8 (4/19)}
+%\input{Lectures/Lecture 8}
+%\newpage
+%
+%\section{Lecture 9 (4/21)}
+%\input{Lectures/Lecture 9}
+%\newpage
+%
+%\section{Lecture 10 (4/24)}
+%\input{Lectures/Lecture 10}
+%\newpage
+%
+%\section{Lecture 11 (4/26)}
+%\input{Lectures/Lecture 11}
+%\newpage
+%
+%\section{Lecture 12 (4/28)}
+%\input{Lectures/Lecture 12}
+%\newpage
+%
+%\section{Lecture 13 (5/01)}
+%\input{Lectures/Lecture 13}
+%\newpage
+%
+%\section{Lecture 14 (5/03)}
+%\input{Lectures/Lecture 14}
+%\newpage
+%
+%\section{Lecture 15 (5/05)}
+%\input{Lectures/Lecture 15}
+%\newpage
+%
+%\section{Lecture 16 (5/08)}
+%\input{Lectures/Lecture 16}
+%\newpage
+%
+%\section{Lecture 17 (5/10)}
+%\input{Lectures/Lecture 17}
+%\newpage
+%
+%\section{Lecture 18 (5/12)}
+%\input{Lectures/Lecture 18}
+%\newpage
+%
+%\section{Lecture 19 (5/15)}
+%\input{Lectures/Lecture 19}
+%\newpage
+%
+%\section{Lecture 20 (5/17)}
+%\input{Lectures/Lecture 20}
+%\newpage
+%
+%\section{Lecture 21 (5/19)}
+%\input{Lectures/Lecture 21}
+%\newpage
+%
+%\section{Lecture 22 (5/22)}
+%\input{Lectures/Lecture 22}
+%\newpage
+%
+%\section{Lecture 23 (5/24)}
+%\input{Lectures/Lecture 23}
+%\newpage
+%
+%\section{Lecture 24 (5/26)}
+%\input{Lectures/Lecture 24}
+%\newpage
+%
+%\section{Lecture 25 (5/31)}
+%\input{Lectures/Lecture 25}
+%\newpage
+%
+%\section{Lecture 26 (6/02)}
+%\input{Lectures/Lecture 26}
+%\newpage
+%
+%\section{Lecture 27 (6/05)}
+%\input{Lectures/Lecture 27}
+%\newpage
+%
+%\section{Lecture 28 (6/07)}
+%\input{Lectures/Lecture 28}
+%\newpage
+%
+%\section{Lecture 29 (6/09)}
+%\input{Lectures/Lecture 29}
+%\newpage
+
+%\section*{References}
+%\vspace{0.1in}
+
+\appendix
+\section{Problems}
+\input{Sections/Problems}
+\newpage
+
+\nocite{brown2009complex}
+\nocite{complex-notes}
+\bibliographystyle{amsalpha}
+\bibliography{citations.bib}
+%
+\vspace*{5em}
+%
+%\thispagestyle{empty}
+\centering
+\hrule
+%\vspace{0.5in}
+%\textsc{\LARGE The End}
+%\vspace*{\fill}
+%\begin{center}
+%\emph{Number is the commanding and self-begotten container of the eternal duration of mundane concerns.}
+%\end{center}
+%\vspace*{-1em}
+%\hfill {\footnotesize -- Philolaus, as quoted by Aristotle, \textsl{Metaphysics}}\\[2em]
+%\includegraphics[scale=0.25]{Christopher-Farr-Editions-Josef-Albers-Many-Faces-of-Red.jpg}
+%\vspace*{\fill}
+
+\end{document}

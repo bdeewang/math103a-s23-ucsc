@@ -1,0 +1,855 @@
+\begin{problem}[]\label{prob 1.1a}
+Consider the set of matrices
+\[X \coloneqq \setp{\begin{pmatrix}x & -y\\ y & x \end{pmatrix}}{x,y \in \rr}.\]
+One can check (and you should if you're unconvinced) straightforwardly that $X$ is closed under matrix addition and matrix multiplication; that is, if $A,B \in X$, then $A+B,\, AB \in X$.
+\begin{itemize}[itemsep=1em]
+\item[(a)] Let $\cc$ denote the set of complex numbers. Show that the map $\phi: X \to \cc$ defined by 
+\[\phi:X \to \cc,\quad \begin{pmatrix}x & -y\\ y & x \end{pmatrix} \mapsto x + iy\]
+is a bijection. 
+\item[(b)] Let $I = \begin{pmatrix}1 & 0\\ 0 & 1\end{pmatrix}$ be the identity matrix. Consider $A,B \in X$, show that $\phi$ has the following properties.
+\begin{itemize}[itemsep=1em]
+\item[(i)] $\phi(A+B) = \phi(A)+\phi(B)$
+\item[(ii)] $\phi(AB) = \phi(A)\phi(B)$
+\item[(iii)] $\phi(I) = 1$
+\end{itemize}
+\item[(c)] Find a matrix $J$ satisfying $J^2 = -I$ and show that $\phi(J) = i$.
+\end{itemize}
+\vspace*{0.05in}
+\begin{remark}
+This indicates that one could very well define $\cc$ to be $X$. The algebraic operations on $\cc$ then seem less artificial, since product and sum of complex numbers correspond to the corresponding operations of matrices. Even taking the inverse and modulus is captured by $X$ as taking inverse and the determinant of matrices. The copy of $\rr$ corresponds to the set of diagonal matrices in $X$. One obtains $X$ by considering the linear operator of multiplying by $x + iy$ on the $\rr$-vector space $\cc$ with basis $1$ and $i$.
+\end{remark}
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 1.1}
+Using the definition of complex multiplication prove that
+\[(a,0)\cdot (x,y) = (ax,ay).\]
+That is, $a(x + iy) = ax + iay$.
+\end{problem}
+
+\vspace*{0.1in}
+
+\begin{problem}\label{prob 1.2}
+Consider complex numbers $z_1 = (x_1,y_1) = x_1(1,0) + y_1(0,1)$ and $z_2 = (x_2,y_2) = x_2(1,0) + y_2(0,1)$. Using the identity $(0,1)^2 = (-1,0)$. Prove that \[(x_1(1,0) + y_1(0,1))\cdot (x_2(1,0) + y_2(0,1)) = (x_1x_2 - y_1y_2, x_1y_2 + x_2y_1),\] where the former is computed distributively.
+\end{problem}
+
+\newpage
+%\medskip
+
+\begin{problem}\label{prob 1.3}
+Prove properties (1) - (7) and (9) listed in Proposition \ref{cafield}.
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 1.3a}
+Prove that if $z_1z_2 = 0$, then $z_1 = 0$ or $z_2 = 0$.
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 1.4}
+Show that
+%\begin{multicols}{2}
+\begin{itemize}
+\item[(a)] $\Re iz = - \Im z$;
+\item[(b)] $\Im iz = \Re z$
+\end{itemize}
+%\end{multicols}
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 1.5}\hfill
+\begin{itemize}
+\item[(a)] Verify that $z = 1 \pm i$ satisfies the equation \[z^2 - 2z + 2 = 0.\]
+\item[(b)] Solve the equation \[z^2 + z + 1 = 0\] for $z = x + iy$ by solving a pair of simultaneous equations in $x$ and $y$.
+\end{itemize}
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 1.5a}
+Let $p(z) = az^2 + bz + c$ be a polynomial with complex coefficients ($a\neq 0$). 
+\begin{itemize}
+\item[(a)] By completing the square, show that the solution to $p(z) = 0$ is
+\[z = \frac{-b \pm \Delta^{1/2}}{2a},\]
+where $\Delta \coloneqq b^2 - 4ac$ is called the discriminant.\\[0.5em]
+{\footnotesize Remark. There's a subtlety with taking roots that we will address later in class.}
+\item[(b)] Consider the polynomial $p(z) = iz^2 -1$
+\begin{itemize}
+\item[(i)] Compute $\Delta$.
+\item[(ii)] For the $\Delta$ obtained in (b), compute $\Delta^{1/2}$ by solving a pair of simultaneous equations in $x$ and $y$ obtained by considering the equation \[x^2 - y^2 + 2ixy = (x + iy)^2 = \Delta.\]
+\item[(iii)] Finally, write down the roots of $p(z)$ in the form $u + iv$.
+\end{itemize}
+\end{itemize}
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 1.6}
+Suppose $\cc$ had total ordering that extends the ordering on $\rr$, arrive at a contradiction by comparing $i$ and $0$.
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 1.7}
+Locate the numbers $z_1 + z_2,\, z_1 - z_2$ and $z_1z_2$ in the complex plane when
+\begin{multicols}{2}
+\begin{itemize}
+\item[(a)] $z_1 = 2i,\, z_2 = \dfrac{2}{3} - i$.
+\item[(b)] $z_1 = (-3,1),\,z_2 = (1,4)$.
+\item[(c)] $z_1 = (-\sqrt{3},1),\,z_2 = (\sqrt{3},0)$.
+\item[(d)] $z_1 = x_1 + iy_1,\,z_2 = x_1 - iy_1$.
+\end{itemize}
+\end{multicols}
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 1.8}
+Verify that $\sqrt{2}\abs{z} \geq \abs{\Re z} + \abs{\Im z}$.
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 1.9}
+Let $z_0\neq z_1 \in \cc$ and let $\lambda >0$.
+\begin{itemize}[itemsep=1em]
+\item[(a)] Show that if $\lambda \neq 1$, then the set of points
+\begin{equation*}\label{par}
+\abs{z-z_0} = \lambda \abs{z-z_1}\tag{$\bigstar$}
+\end{equation*}
+is a circle of radius $R = \dfrac{\lambda}{\abs{1-\lambda^2}} \abs{z_0 - z_1}$ centered at $w = \dfrac{z_0 - \lambda^2 z_1}{1-\lambda^2}$.\\[0.5em]
+\item[(b)] Show that every circle in the complex plane can be written in the form of (\ref{par}) for some $\lambda >0,\, \lambda \neq 1$ and $z_0 \neq z_1 \in \cc$. 
+\item[(c)] If $\lambda = 1$, show that (\ref{par}) defines a line. In fact, argue that the resulting line is perpendicular to and bisects the line segment joining $z_0$ and $z_1$, by producing the equation of this line as a subset of $\rr^2$.
+\item[(d)] Characterise points on the real (resp. imaginary) axis using (c). That is, find $z_0 \neq z_1 \in \cc$ such that the points on the real (resp. imaginary) axis satisfy (\ref{par}) for $\lambda = 1$.
+\item[(e)] Consider the map \[M(z) = \dfrac{z-3}{1 - 2z}.\] For which values of $c \in \rr$ is the image of the circle $\abs{z - 1} = c$ under $M$ a line? What is the equation of the line when considered as a subset of the plane $\rr^2$?
+\end{itemize}
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 2.1a}
+Prove Proposition \ref{normmult} (1).
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 2.1}
+Prove the properties, other than (5), listed in Proposition \ref{conjprop}.
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 2.2}
+Prove that $z$ is either real or pure imaginary if and only if $z^2 = \overline{z}^2$.
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 2.3}
+Prove that $\abs{z} = 1$ if and only if $\overline{z} = \dfrac{1}{z}$. 
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 2.4}
+Follow the steps below to give an algebraic derivation of the triangle inequality (Proposition \ref{triangleineq} (a))
+\begin{itemize}
+\item[(a)] Show that
+\[\abs{z_1 + z_2}^2 = (z_1 + z_2)(\overline{z}_1 + \overline{z}_2) = z_1\overline{z}_1 + (z_1\overline{z}_2 + \overline{z_1\overline{z}_2}) + z_2\overline{z}_2.\]
+\item[(b)] Argue why
+\[z_1\overline{z}_2 + \overline{z_1\overline{z}_2} = 2\Re(z_1\overline{z}_2) \leq 2\abs{z_1}\abs{z_2}.\]
+\item[(c)] Use (a) and (b) to obtain $\abs{z_1 + z_2}^2 \leq (\abs{z_1} + \abs{z_2})^2$. Finally note how the triangle inequality follows from this.
+\end{itemize}
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 2.4a}
+Let $z,w \in \cc$. 
+\begin{itemize}[itemsep=1em]
+\item[(a)] Prove the formula
+\[\abs{z+w}^2 = \abs{z}^2 + 2 \Re z\overline{w} + \abs{w}^2\]
+\item[(b)] Use (a) to deduce the \emph{parallelogram law}
+\[\abs{z+w}^2 + \abs{z-w}^2 = 2\abs{z}^2 + 2\abs{w}^2\]
+Give a geometric interpretation of this formula. 
+\end{itemize}
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 2.5}
+Suppose $p$ is a polynomial with \emph{real coefficients}. Prove that
+\begin{multicols}{2}
+\begin{itemize}
+\item[(a)] $\overline{p(z)} = p(\overline{z})$.
+\item[(b)] $p(z) = 0$ if and only if $p(\overline{z}) = 0$.
+\end{itemize}
+\end{multicols}
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 2.7}
+Find the principal argument $\parg z$ when
+\begin{multicols}{2}
+\begin{itemize}
+\item[(a)] $-i(3 + 3i)^{-1}$.
+\item[(b)] $(1 - i\sqrt{3})^6$.
+\end{itemize}
+\end{multicols}
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 3.1}
+Prove that 
+\[\arg z + \arg w = \setp{(\parg z + \parg w) + 2k\pi}{k \in \zz}\]
+Combining this with Proposition \ref{prodarg} we get that $\parg zw = \parg z + \parg w + 2k\pi$ for some $k \in \zz$ such that $-\pi < \parg z + \parg w + 2k\pi \leq \pi$. That is, to find $\parg zw$, just add $\parg z$ and $\parg w$ and then add or subtract a suitable multiple of $2\pi$ to get it between $-\pi$ and $\pi$.
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 3.2}
+Prove that for any complex number $z$, we have $\parg \overline{z} = \parg z^{-1} = -\parg z$.
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 3.3}\hfill
+\begin{itemize}
+\item[(a)] Show that if $\Re z_1 > 0$ and $\Re z_2 > 0$, then $\parg(z_1z_2) = \parg z_1 + \parg z_2$.
+\item[(b)] Show that if $\Re z > 0$, then $\parg(-z) = -\pi + \parg z$ if $\Im z > 0$ or $\parg(-z) = \pi + \parg z$ if $\Im z< 0$.
+\item[(c)] Using (a) and (b), find an expression for $\parg zw$ for any non-zero complex numbers $z$ and $w$, in terms of $\parg z,\,\parg w$ and specific multiples of $\pi$.
+\end{itemize}
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 3.4}
+Compute the $6^{\text{th}}$ roots of unity, explicitly. Show that the principal $6^{\text{th}}$ root of unity is $\zeta_6 = -\omega$, where $\omega$ is as in Example \ref{cuberootofunity}.
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 3.5}\hfill
+\begin{itemize}
+\item[(a)] Let $z\in \cc$. Using the principle of mathematical induction, show that the following formula holds for all integers $n\geq 1$
+\[1 + z + z^2 + \cdots + z^n = \frac{1-z^{n+1}}{1-z}.\]	
+\item[(b)] Use (a) to derive \emph{Lagrange's Trigonometric Identity}.
+\[1 + \cos\theta + \cos^2\theta + \cdots + \cos^n\theta = \frac{2\sin((2n+1)\theta/2)}{2\sin(\theta/2)},\quad 0 < \theta < 2\pi.\]
+\item[(c)] If $\zeta_1,\ldots,\zeta_n$ are the \emph{distinct} $n^{\text{th}}$ roots of unity, show that, using (a), $\displaystyle \sum_{i=1}^n \zeta_i = 0$.
+\item[(d)] We compute the following sum of real numbers
+\begin{equation*}\label{trigsum}
+\cos \frac{\pi}{7} + \cos \frac{3\pi}{7} + \cos \frac{5\pi}{7} \tag{$\dagger$}
+\end{equation*}
+\begin{itemize}[itemsep=1em]
+\item[(i)] Let $w = e^{\frac{\pi i}{7}}$. What is $\Re w$ and $w^7$? Furthermore, rewrite (\ref{trigsum}) as
+\[\Re(w^{a_1} + w^{a_2} + w^{a_3}),\quad \text{for some $0 \leq a_i < 7$.}\]
+\item[(ii)] Replacing $z$ by $-z$ in (a), find a formula for \[\dfrac{z^7 + 1}{z + 1}.\]
+Use this to deduce an identity involving $w$ and its powers.
+\item[(iii)] Using the identity you found in (iii), conclude that 
+\[w^{a_1} + w^{a_2} + w^{a_3} = \frac{1}{1-w}\]
+where the $a_i$'s are the numbers you found in (ii).
+\item[(iv)] Finally compute (\ref{trigsum}).
+\end{itemize}
+\end{itemize}
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 4.1}\hfill
+\begin{itemize}
+\item[(a)] Recall that a set is open if every point of the set is an interior point. Prove that a set $U \subseteq \cc$ is open if and only if it does not contain any of its boundary points; that is, $\partial U \cap U = \emptyset$. Then deduce that the complement of a closed set is open.
+\item[(b)] Prove that an open disk $D_\epsilon(z_0) = \setp{z \in \cc}{\abs{z - z_0} < \epsilon}$ is a domain; that is, a non-empty open and connected subset of $\cc$.
+\end{itemize}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 4.2}
+Sketch the sets defined by the following constraints and determine whether they are open, closed, or neither; bounded; connected. What are their boundaries?
+\begin{multicols}{2}
+\begin{itemize}
+\item[(a)] $\abs{z + 3} < 2$.
+\item[(b)] $\abs{\Im(z)} < 1$.
+\item[(c)] $0 < \abs{z - 1} < 2$.
+\item[(d)] $\abs{z - 1} + \abs{z + 1} = 2$.
+\item[(e)] $\abs{z - 1} + \abs{z + 1} < 3$.
+\item[(f)] $\abs{z} \geq \Re(z) + 1$.
+\end{itemize}
+\end{multicols}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 4.3}
+Let $G$ be the set of points $z \in \cc$ satisfying either $z$ is real and $-2 < z < -1$, or $\abs{z} < 1$, or $z = 1$ or $z = 2$.
+\begin{itemize}
+\item[(a)] Sketch the set $G$, being careful to indicate exactly the points that are in $G$.
+\item[(b)] Determine the interior points of $G$.
+\item[(c)] Determine the boundary points of $G$.
+\item[(d)] Determine the isolated points of $G$.
+\item[(e)] $G$ can be written in three diferent ways as the union of two disjoint nonempty disconnected subsets. Describe them.
+\end{itemize}
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 4.4}
+For each of the functions below, describe the domain of definition that is understood.
+\begin{multicols}{2}
+\begin{itemize}
+\item[(a)] $f(z) = \dfrac{1}{1 + z^2}$
+\item[(b)] $f(z) = \parg\left(\dfrac{1}{z}\right)$
+\item[(c)] $f(z) = \dfrac{z}{z + \overline{z}}$
+\item[(d)] $f(z) = \dfrac{1}{1 - \abs{z}^2}$
+\end{itemize}
+\end{multicols}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 4.5}\hfill
+\begin{itemize}
+\item[(a)] Write the function $f(z) = z^3 + z + \overline{z} + 1$ in the form 
+\[f(z) = u(x, y) + i\,v(x, y).\]
+\item[(b)] Suppose that $f(z) = x^2 - y^2 - 2y + i(2x - 2xy)$, where $z = x + iy$. Use Proposition \ref{conjprop} (6) to write $f(z)$ in terms of $z$, and simplify the result.
+\item[(c)] Write the function
+\[f(z) = z + \frac{1}{z} \quad (z \neq 0)\]
+in the form $f(z) = u(r,\theta) + i\,v(r,\theta)$.
+\end{itemize}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 4.6}
+Let $f : G \to \cc$ be a complex function, and suppose $z_0$ is an accumulation point of $G$. Show that 
+\[\lim_{z \to z_0} f(z) = w_0 \quad \text{if and only if} \quad \lim_{z\to z_0}\abs{f(z) - w_0} = 0.\]
+Thereby deduce that 
+\[\lim_{z \to z_0} \bar{f}(z) = \overline{w}_0 \quad \text{if and only if} \quad \lim_{z \to z_0} f(z) = w_0.\]
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 4.7}
+Let $f : G \to \cc$ be a complex function, and suppose $z_0$ is an accumulation point of $G$. Show that 
+\[\text{if }\lim_{z \to z_0} f(z) = w_0, \quad \text{then }\ \lim_{z\to z_0}\abs{f(z)} = \abs{w_0}.\]
+{\footnotesize Hint. Use the reverse triangle inequality.}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 4.8}
+Let $f : G \to \cc$ be a complex function, and suppose $z_0$ is an accumulation point of $G$. Writing $h = z - z_0$, show that 
+\[\lim_{z \to z_0} f(z) = w_0 \quad \text{if and only if} \quad \lim_{h \to 0}f(z + h) = w_0.\]
+\end{problem}
+
+\vspace*{0.1in}
+
+\begin{problem}\label{prob 5.1}
+Compute the following limits and prove your claim by using only the $\epsilon$-$\delta$ definition.
+\begin{multicols}{2}
+\begin{itemize}
+\item[(a)] $\displaystyle \lim_{z \to i}\,\overline{z}$
+\item[(b)] $\displaystyle \lim_{z \to 1+i}\,z^2$
+\item[(c)] $\displaystyle \lim_{z \to 1}\,z^3$
+\item[(d)] $\displaystyle \lim_{z \to 1 - i}\,\overline{z}^2 - 1$
+\item[(e)] $\displaystyle \lim_{z \to 1}\,z - \overline{z}$
+\item[(f)] $\displaystyle \lim_{z \to i}\,\overline{z} + z$
+\end{itemize}
+\end{multicols}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 5.2}
+Evaluate the following limits or explain why they don't exist.
+\begin{multicols}{2}
+\begin{itemize}
+\item[(a)] $\displaystyle \lim_{z\to i}\frac{iz^3 - 1}{z + i}$
+\item[(b)] $\displaystyle \lim_{z\to 1-i} (x + i(2x + y))$
+\end{itemize}
+\end{multicols}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 5.3}
+Define
+\[f(z) = \frac{x^2y}{x^4 + y^2} \quad \text{where }\  z = x + iy \neq 0.\]
+Show that the limits of $f$ at $0$ along all straight lines through the origin exist and are equal, but $\lim_{z \to 0}f(z)$ does not exist.\\[0.5em]
+{\footnotesize Hint: Consider the limit along the parabola $y = x^2$.}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 5.4}
+Let $M(z) = \dfrac{z - 3}{1 - 2z}$. Prove that
+\[\lim_{z\to \infty} M(z) = -\frac{1}{2} \quad \text{and} \quad \lim_{z \to 1/2} M(z) = \infty\]
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 5.5}
+Let \[M(z) = \dfrac{az + b}{cz + d},\quad ad-bc \neq 0.\] Prove that
+\begin{itemize}
+\item[(a)] $\displaystyle\lim_{z \to \infty} M(z) = \infty$ if $c = 0$.
+\item[(b)] $\displaystyle\lim_{z \to \infty} M(z) = \dfrac{a}{c}$ and $\displaystyle\lim_{z \to -d/c}M(z) = \infty$, if $c \neq 0$.
+\end{itemize}
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 6.1}
+Example \ref{polycts} tells us that polynomials are continuous. 
+\begin{itemize}
+\item[(a)] Prove that the complex conjugation function $\sigma(z) \coloneqq \overline{z}$ is continuous.
+\item[(b)] Prove that a polynomial in $\overline{z}$ is continuous. That is, prove that a polynomial given as
+\[p(\overline{z}) = a_n\overline{z}^n + \cdots + a_1\overline{z} + a_0,\quad a_i \in \cc,\ a_n \neq 0\]
+is continuous.
+\item[(c)] Prove that the following functions are continuous by writing them as a sum or product of polynomials $p(z)$ and $q(\overline{z})$
+\begin{itemize}
+\item[(i)] $R(z) \coloneqq \Re z$
+\item[(ii)] $I(z) \coloneqq \Im z$
+\item[(iii)] $N(z) \coloneqq \abs{z}^2$
+\end{itemize}
+\end{itemize}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 6.2}
+Show that the function $f : \cc \to \cc$ given by
+\[f(z) = \begin{cases} \dfrac{\overline{z}}{z} & \text{if }z \neq 0\\[1em] 1 & \text{if } z = 0 \end{cases}\]
+is continuous on $\cc^*$.
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 6.3}
+Consider the function \[f : \cc^*\to \cc,\ z \mapsto \frac{1}{z}.\]
+Apply the definition of the derivative to give a direct proof that $f'(z) = -\dfrac{1}{z^2}$.
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 6.4}
+Find the derivative of the function 
+\[M(z) \coloneqq \frac{az + b}{cz + d},\quad ad-bc \neq 0.\]
+When is $M'(z) = 0$?
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 6.5}
+Using Example \ref{limnotex} as an inspiration, show that $f'(z)$ does not exist for any $z$ for the functions
+\begin{itemize}
+\item[(a)] $f(z) = \Re z$
+\item[(b)] $f(z) = \Im z$
+\end{itemize}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 6.6}
+Show that the function $f : \cc \to \cc$ given by
+\[f(z) = \begin{cases} \dfrac{\overline{z}^2}{z} & \text{if }z \neq 0\\[1em] 0 & \text{if } z = 0 \end{cases}\]
+is not differentiable at $0$.
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 6.7}\hfill
+\begin{itemize}
+\item[(a)] Show that a polynomial of degree $n$, $p(z) = a_0 + a_1z + a_2z^2 + \cdots + a_nz^n$, where $a_n \neq 0$, is differentiable everywhere, with
+\[p'(z) = a_1 + 2a_2z + \cdots + na_nz^{n-1}\]
+\item[(b)] Furthermore, show that for $p(z)$, as given in (a), we have
+\[a_i = \frac{p^{(i)}(0)}{i!}\]
+for $i = 0,\ldots,n$. Where $p^{(0)}(z) = p(z)$ and $p^{(i)}(z)$, for $i>0$, is the $i^{\text{th}}$ derivative of $p(z)$.
+\end{itemize}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 6.8}
+Let $G$ be a domain and $f: G \to \cc$ a function that is differentiable at every point in $G$. Consider the domain
+\[G^* = \setp{z \in \cc}{\overline{z} \in G}\]
+and the function 
+\[f^*:G^* \to \cc,\ z \mapsto \overline{f(\overline{z})}\]
+Show that $f^*$ is differentiable at every point in $G^*$.
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 6.9}
+For each function, determine all points at which the derivative exists. When the derivative exists, find its value. Use Example \ref{normdiffexistence} as an inspiration.
+\begin{itemize}
+\item[(a)] $f(z) = z + i\overline{z}$
+\item[(b)] $g(z) = (z + i\overline{z})^2$
+\item[(b)] $h(z) = z\Im z$
+\end{itemize}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 6.10}
+By definition, a function $f : G \to \cc$ is differentiable at $z_0 \in G$ if the limit
+\[f'(z_0) = \lim_{z\to z_0}\frac{f(z) - f(z_0)}{z - z_0}\]
+exists. Unpacking the limit definition, we see that $f$ is differentiable at $z_0$ if and only if for every $\epsilon > 0$, there exists a $\delta > 0$ such that
+\[\text{if }\ 0 < \abs{z - z_0} < \delta,\quad \text{then }\ \abs{\frac{f(z) - f(z_0)}{z - z_0} - f'(z_0)} < \epsilon.\]
+\newpage
+By appealing only to the definition, we show that $\sigma : \cc \to \cc$ defined by $\sigma(z) = \overline{z}$ is not differentiable anywhere by completing the following steps.
+\begin{itemize}
+\item[(i)] Let $z_0 \in \cc$ and assume that $f'(z_0)$ exists. Choose $\delta > 0$ according to the definition using $\epsilon = 1/2$ and write down the resulting statement.
+\item[(ii)] Consider $z = z_0 + \delta/2$ and conclude from (a) that $\abs{1 - f'(z_0)} < \epsilon$.
+\item[(iii)] Consider $z = z_0 + i\delta/2$ and conclude from (a) that $\abs{1 + f'(z_0)} < \epsilon$.
+\item[(iv)] Using the triangle inequality together with (ii) and (iii), obtain a contradiction.
+\end{itemize}
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 7.1}
+Define 
+\[f(z) = \begin{cases} 0 & \text{if }\Re(z)\cdot \Im(z) = 0,\\[0.5em] 1 & \text{if } \Re(z)\cdot \Im(z) \neq 0\end{cases}.\]
+Show that $f$ satisfies the Cauchy–Riemann equation at $z = 0$, yet $f$ is not diferentiable at $z = 0$.
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 7.2}
+Show that when $f(z) = x^3 + i(1 - y)^3$, it makes sense to write
+\[f'(z) = u_x + iv_x = 3x^2\]
+only when $z = i$.
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 7.3}
+Show that $f'(z)$ does not exist at any point if
+\begin{itemize}
+\item[(a)] $f(z) = z - \overline{z}$
+\item[(b)] $f(z) = 2x + ixy^2$
+\end{itemize}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 7.4}
+Show that $f'(z)$ and its derivative $f''(z)$ exist everywhere, and find $f''(z)$ when
+\begin{itemize}
+\item[(a)] $f(z) = iz + 2$
+\item[(b)] $f (z) = e^{-x}e^{-iy}$
+\end{itemize}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 7.5}
+Let $f: G \to \cc$ be a function, such that $G \subseteq \cc^*$, then we can write
+\[f(z) = f(x + iy) = u(x,y) + i\,v(x,y)\quad \text{or}\quad f(z) = f(re^{i\theta}) = u(r,\theta) + i\,v(r,\theta)\]
+Using the fact that $x = r\cos\theta$ and $y = r\sin\theta$ and the chain rule from calculus, write $u_r$ and $u_\theta$ in terms of $u_x$ and $u_y$. Assuming $f$ is differentiable, rewrite the \ref{creqex}-equations and $f'(z)$ in terms of $u_r$ and $u_\theta$.
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 7.6}
+Prove that the function
+\[f(z) = e^{-\theta}\cos(\ln r) + ie^{-\theta}\sin(\ln r)\]
+is differentiable when $r > 0$ and $0 < \theta < 2\pi$, and find $f'(z)$ in terms of $f(z)$.
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 8.1}
+Let $f = u + iv$ be a complex-valued function defined on an open set $G \subseteq \cc$. Suppose that the first-order partial derivatives of $\Re f = u$ and $\Im f = v$ exist and are continuous on $G$.
+\begin{itemize}[itemsep = 1em]
+\item[(a)] Recall that if $z = x + iy$, then
+\[x = \frac{z + \overline{z}}{2} \quad \text{and} \quad y = \frac{z - \overline{z}}{2i}\]
+Treat $f = f(x,y)$ as a function in two real-variables, and \emph{formally} apply the chain rule in Calculus to obtain the expressions
+\[\frac{\partial f}{\partial z} = \frac{1}{2}\left(\frac{\partial f}{\partial x} - i\frac{\partial f}{\partial y}\right) \quad \text{and} \quad \frac{\partial f}{\partial \overline{z}} = \frac{1}{2}\left(\frac{\partial f}{\partial x} + i\frac{\partial f}{\partial y}\right)\]
+\item[(b)] Define $\dfrac{\partial f}{\partial x} \coloneqq \dfrac{\partial u}{\partial x} + i\dfrac{\partial v}{\partial x}$, and similarly for $\dfrac{\partial f}{\partial y}$.\\[1em] Prove that $f$ is holomorphic on $G$ if and only if $\dfrac{\partial f}{\partial \overline{z}} = 0$.
+\item[(c)] 
+\begin{itemize}[itemsep=1em]
+\item[(i)] If $f$ is holomorphic on $G$, prove that $f'(z) = \dfrac{\partial f}{\partial z}$.
+\item[(ii)] The \emph{Jacobian} of $(x,y) \mapsto (u(x,y),v(x,y))$ is the determinant of the matrix
+\[\begin{pmatrix}
+\dfrac{\partial u}{\partial x} && \dfrac{\partial u}{\partial y}\\[1.5em]
+\dfrac{\partial v}{\partial x} && \dfrac{\partial v}{\partial y}
+\end{pmatrix}\]
+If $f$ is holomorphic on $G$, prove that the Jacobian equals $\abs{f'(z)}^2 \geq 0$.
+\end{itemize}
+\end{itemize}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 8.2}
+Suppose $f$ is entire and can be written as \[f(z) = u(x) + i\,v(y),\] that is, the
+real part of $f$ depends only on $x = \Re(z)$ and the imaginary part of $f$ depends only on $y = \Im(z)$.\\[0.5em]
+Prove that $f(z) = az + b$ for some $a \in \rr$ and $b \in \cc$.
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 8.3}
+Suppose $f$ is entire, with real and imaginary parts $u$ and $v$ satisfying
+\[u(x, y)\, v(x, y) = 3\]
+for all $z = x + i y$. Show that $f$ is constant.
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 8.4}
+Prove that, if $G \subseteq \cc$ is a domain and $f : G \to \cc$ is a complex-valued function with $f''(z)$ defined and equal to $0$ for all $z \in G$, then $f(z) = az + b$ for some $a, b \in \cc$. 
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 8.5}
+Show that
+\begin{itemize}
+\item[(a)] $\exp(2 \pm 3\pi i) = -e^2$
+\item[(b)] $\exp\left(\dfrac{2 + \pi}{4}\right) = \sqrt{\dfrac{e}{2}}(1 + i)$
+\item[(c)] $\exp(z + \pi i) = -\exp z$.
+\end{itemize}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 8.6}
+Prove that
+\begin{itemize}
+\item[(a)] $f(z) = \exp\overline{z}$ is nowhere holomorphic.
+\item[(b)] $f(z) = \exp z^2$ is entire. What is its derivative?
+\end{itemize}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 8.7}
+Show that
+\begin{itemize}
+\item[(a)] $\abs{\exp(2z + i) + exp(iz^2)} \leq e^{2x} + e^{-2xy}$.
+\item[(b)] $\abs{\exp(z^2)} \leq \exp(\abs{z}^2)$.
+\item[(c)] $\abs{\exp(-2z)} < 1$ if and only if $\Re z > 0$.
+\end{itemize}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 8.8}
+Find all values of $z$ such that
+\begin{itemize}
+\item[(a)] $\exp z = -2$
+\item[(b)] $\exp z = 1 + i\sqrt{3}$
+\item[(c)] $\exp(2z - 1) = 1$.
+\end{itemize}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 8.9}
+Find all solutions to the equation $e^{2z} - 2ie^z = 1$.
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 8.10}
+Let $G \subseteq \cc^*$ be an open set and let $f$ be a function that is continuous on $G$ with the property
+\[e^{f(z)} = z,\quad z \in G.\]
+Show that $f$ is holomorphic on $G$.
+\begin{remark}
+This shows that a \emph{continuously} defined logarithm on an open set is immediately holomorphic.
+\end{remark}
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 9.1}
+Find the all possible values of
+\begin{multicols}{2}
+\begin{itemize}
+\item[(a)] $\log(-5)$
+\item[(b)] $\log(-2 + 2i)$
+\item[(c)] $\log(\sqrt{2} + i\sqrt{6})$
+\item[(d)] $\log(-ei)$
+\item[(e)] $\log(1 + i)$
+\item[(f)] $\log(-\sqrt{3} + i)$
+\end{itemize}
+\end{multicols}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 9.2}
+Compute
+\begin{multicols}{2}
+\begin{itemize}
+\item[(a)] $\plog(6-6i)$
+\item[(b)] $\plog(-e^2)$
+\item[(c)] $\plog(-12 + 5i)$
+\item[(d)] $\plog((1 + i\sqrt{3})^5)$
+\item[(e)] $\plog(3 - 4i)$
+\item[(f)] $\plog((1+i)^4)$
+\end{itemize}
+\end{multicols}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 9.3}\hfill
+\begin{itemize}
+\item[(a)] Show that if $\Re z_1 > 0$ and $\Re z_2 > 0$, then
+\[\plog(z_1z_2) = \plog z_1 + \plog z_2.\]
+\item[(b)] Show that for any two non-zero complex numbers $z_1$ and $z_2$,
+\[\plog(z_1z_2) = \plog z_1 + \plog z_2 + 2N\pi i,\]
+where $N \in \set{0,\pm 1}$.
+\end{itemize}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 9.4}
+Example \ref{logcalc} (4) tells us that it's not necessarily true that $\log z^n = n\log z$, for $n \in \zz_{>0}$.\\[0.5em]
+Writing $z = re^{i\parg z}$, show that, where $n \in \zz_{>0}$
+\[\log(z^{1/n}) = \frac{1}{n}\ln r + i\left(\frac{\parg z + 2(pn + k)\pi}{n}\right),\quad k = 0,\ldots,n-1.\]
+Now, after writing 
+\[\frac{1}{n}\log z = \frac{1}{n}\ln r + i\left(\frac{\parg z + 2qz}{n}\right),\quad q \in \zz,\]
+show that we have equality of sets
+\[\log(z^{1/n}) = \frac{1}{n}\log z\]
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 9.5}
+Find a domain in which the given function $f$ is holomorphic; then find the derivative $f'$.
+\begin{itemize}
+\item[(a)] $f(z) = 3z^2 - e^{2iz} + i\plog z$
+\item[(b)] $f(z) = (z + 1)\plog z$
+\item[(c)] $f(z) = \dfrac{\plog(2z-i)}{z^2 + 1}$
+\item[(d)] $f(z) = \plog(z^2 + 1)$
+\end{itemize}
+\end{problem}
+
+\medskip
+
+\begin{problem}\label{prob 10.1}
+Find the all possible values of
+\begin{multicols}{2}
+\begin{itemize}
+\item[(a)] $(-1)^{3i}$
+\item[(b)] $3^{2i/\pi}$
+\item[(c)] $(1 + i)^{1-i}$
+\item[(d)] $(1+i\sqrt{3})^i$
+\item[(e)] $(-i)^i$
+\item[(f)] $(ei)^{\sqrt{2}}$
+\item[(g)] $(-1)^{1/\pi}$
+\item[(h)] $i^{i/\pi}$
+\end{itemize}
+\end{multicols}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 10.2}
+Compute the principal value of the given complex powers.
+\begin{multicols}{2}
+\begin{itemize}
+\item[(a)] $(-1)^{3i}$
+\item[(b)] $3^{2i/\pi}$
+\item[(c)] $2^{4i}$
+\item[(d)] $(1+i\sqrt{3})^{3i}$
+\item[(e)] $i^{i/\pi}$
+\item[(f)] $(1 + i)^{2 - i}$
+\item[(g)] $\left(\dfrac{e}{2}(-1-i\sqrt{3})\right)^{3\pi i}$
+\item[(h)] $(1 - i)^{4i}$
+\end{itemize}
+\end{multicols}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 10.3}\hfill
+\begin{itemize}
+\item[(a)] Verify that $(z^\alpha)^n = z^{n\alpha}$ for $z \neq 0$ and $n \in \zz$.
+\item[(b)] Find a counterexample to the statement: $(z^{\alpha})^\beta = z^{\alpha\beta}$, where $z \neq 0$ and $\alpha,\beta \in \cc$.
+\end{itemize}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 10.4}
+Let $z^\alpha$ represent the principal value of the complex power. Find the derivative of the given function at the given point.
+\begin{multicols}{2}
+\begin{itemize}
+\item[(a)] $z^{3/2};\quad z = 1 + i$
+\item[(b)] $z^{1 + i};\quad z = 1 + i\sqrt{3}$
+\item[(c)] $z^{2i};\quad z = i$
+\item[(d)] $z^{\sqrt{2}};\quad z = -i$
+\end{itemize}
+\end{multicols}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 10.5}
+Let $z \in \cc$.
+\begin{itemize}
+\item[(a)] Prove that $|1^{z}|$ is single-valued if and only if $\Im z = 0$.
+\item[(b)] Find a necessary and sufficient condition for $|i^{iz}|$ to be single-valued.
+\item[(c)] Find a counterexample to the statement: $1^z$ is single-valued if and only if $\Im z = 0$.
+\end{itemize}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 10.6}
+Express the value of the given trigonometric function in the form $x + iy$.
+\begin{multicols}{2}
+\begin{itemize}
+\item[(a)] $\sin(4i)$
+\item[(b)] $\cos(-3i)$
+\item[(c)] $\cos(2-4i)$
+\item[(d)] $\sin\left(\dfrac{\pi}{4} + i\right)$
+\item[(e)] $\tan(2i)$
+\item[(f)] $\cot(\pi + 2i)$
+\item[(g)] $\sec\left(\dfrac{\pi}{2} - i\right)$
+\item[(h)] $\csc(1 + i)$
+\end{itemize}
+\end{multicols}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 10.7}
+Find all complex values $z$ satisfying the given equation.
+\begin{multicols}{2}
+\begin{itemize}
+\item[(a)] $\sin z = i$
+\item[(b)] $\cos z = 4$
+\item[(c)] $\sin z = \cos z$
+\item[(d)] $\cos z = i\,\sin z$
+\end{itemize}
+\end{multicols}
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 10.8}
+Prove the properties stated in Discussion \ref{trigid}.
+\end{problem}
+
+\vspace{0.1in}
+
+\begin{problem}\label{prob 10.9}\hfill
+\begin{itemize}
+\item[(a)] Prove that $\overline{\cos z} = \cos\overline{z}$.
+\item[(b)] What is $\Re \cos z$ and $\Im \cos z$?
+\item[(c)] Using the identity $e^{iz} = \cos z + i\sin z$, prove $\overline{\sin z} = \sin\overline{z}$ and find $\Re \sin z$ and $\Im \sin z$. 
+\end{itemize}
+\end{problem}
