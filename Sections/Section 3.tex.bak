@@ -1495,8 +1495,9 @@ Define contour $\Gamma_1$ and $\Gamma_2$ as follows.
 \item[$\Gamma_2$:] Start with $z_2$ and follow to $w_2$ along $-L_2$, then $w_2$ to $w_1$ along $C_1$ (we'll call this $C_{12}$), then $w_1$ to $z_1$ along $-L_1$, and finally $z_1$ to $z_2$ along $C$ (we'll call this $C''$). So, 
 \[\Gamma_2 = -L_2 + C_{12} - L_1 + C''\]
 \end{itemize}
-\[\text{\color{red} insert image}\]
-\vfill
+\begin{center}
+\includegraphics[scale=0.4]{Sections/Illustrations/CG-MCD-Base.png}
+\end{center}
 We note $C' + C'' = C$ and $C_{11} + C_{12} = C$.\\
 \\
 Then $f$ is holomorphic in the interior of and on the simple closed curves $\Gamma_1$ and $\Gamma_2$, so by Theorem \ref{cgthm} we have
@@ -1521,8 +1522,9 @@ Now, let $C_1,\ldots,C_k,C_{k+1}$ be any $k+1$-many contours. Introduce a polygo
 \[\Gamma_2 = C'' + L\]
 \end{itemize}
 We note $C' + C'' = C$.
-\[\text{\color{red}insert image}\]
-\vfill
+\begin{center}
+\includegraphics[scale=0.5]{Sections/Illustrations/CG-MCD-Induction.png}
+\end{center}
 We note that
 \begin{align*}
 \int_{\Gamma_1}f(z)\ dz + \int_{\Gamma_2}f(z)\ dz &= \left(\int_{C'}f(z)\ dz - \int_{L}\,f(z)\ dz\right) + \left(\int_{C''}f(z)\ dz + \int_{L}\,f(z)\ dz\right)\\[1em]
@@ -1698,9 +1700,13 @@ Consider $f(z) = e^{z^2}$, then $f$ is entire, and therefore holomorphic on all 
 \[\int_C\, \frac{e^{z^2}}{z - 1}\, dz = 2\pi if(1) = 2\pi ie.\]
 
 \item[(3)] Let's compute $\displaystyle \int_C\, \frac{z^2 + 1}{z^2 - 1}\, dz = \int_C\, \frac{z^2 + 1}{(z - 1)(z + 1)}\, dz$, where $C$ is as follows
-\[\text{\color{red}insert image here}\]
+\begin{center}
+\includegraphics[scale=0.75]{Sections/Illustrations/Example-3.10.3-3-curve.png}
+\end{center}
 The contour $C$ is not simple but it can be decomposed as a sum of simple closed contours $C = C_1 - C_2$
-\[\text{\color{red}insert image here}\]
+\begin{center}
+\includegraphics[scale=0.75]{Sections/Illustrations/Example-3.10.3-3-contour.png}
+\end{center}
 So, 
 \[\int_C\, \frac{z^2 + 1}{(z - 1)(z + 1)}\,dz = \int_{C_1}\, \frac{z^2 + 1}{(z - 1)(z + 1)}\,dz - \int_{C_2}\, \frac{z^2 + 1}{(z - 1)(z + 1)}\,dz\]
 For $C_1$, consider
@@ -1737,8 +1743,10 @@ We will apply this to $a = \dfrac{1}{z - z_0 - h}$ and $b = \dfrac{1}{z - z_0}$,
 \lim_{h \to 0}&\,\frac{f^{(k)}(z_0 + h) - f^{(k)}(z_0)}{h}\\[1em]
 &= \lim_{h \to 0}\,\frac{k!}{2\pi i}\int_C\,\frac{f(z)}{h}\left(\frac{1}{(z - z_0 - h)^{k+1}} - \frac{1}{(z - z_0)^{k+1}}\right)\,dz\\[1em]
  &= \lim_{h \to 0}\,\frac{k!}{2\pi i}\int_C\,\frac{f(z)}{h}\left(\frac{1}{z - z_0 - h} - \frac{1}{z - z_0}\right)(a^k + a^{k-1}b + \cdots + ab^{k-1} + b^k)\,dz \\[1em]
- &= \lim_{h \to 0}\,\frac{k!}{2\pi i}\int_C\,\frac{f(z)}{h}\left(\frac{h}{(z - z_0 - h)(z - z_0)}\right)(a^k + a^{k-1}b + \cdots + ab^{k-1} + b^k)\,dz \\[1em]
- &= \lim_{h \to 0}\,\frac{k!}{2\pi i}\int_C\,\left(\frac{f(z)}{(z - z_0 - h)(z - z_0)}\right)(a^k + a^{k-1}b + \cdots + ab^{k-1} + b^k)\,dz \\[1em]
+ &= \lim_{h \to 0}\,\frac{k!}{2\pi i}\int_C\,\frac{f(z)}{h}\left(\frac{h}{(z - z_0 - h)(z - z_0)}\right)(a^k + a^{k-1}b + \cdots + ab^{k-1} + b^k)\,dz%\\[1em]
+\end{align*}
+\begin{align*}
+ \phantom{\lim_{h \to 0}} &= \lim_{h \to 0}\,\frac{k!}{2\pi i}\int_C\,\left(\frac{f(z)}{(z - z_0 - h)(z - z_0)}\right)(a^k + a^{k-1}b + \cdots + ab^{k-1} + b^k)\,dz \\[1em]
  &= \frac{k!}{2\pi i}\int_C\,\lim_{h \to 0}\,\left(\frac{f(z)}{(z - z_0 - h)(z - z_0)}\right)(a^k + a^{k-1}b + \cdots + ab^{k-1} + b^k)\,dz \\[1em]
  &= \frac{k!}{2\pi i}\int_C\,\left(\frac{f(z)}{(z - z_0)^2}\right)(b^k + b^{k-1}b + \cdots + b\cdot b^{k-1} + b^k)\,dz\\[1em]
  &= \frac{k!}{2\pi i}\int_C\,\frac{f(z)}{(z - z_0)^2}\cdot(k+1)\cdot b^k\,dz \\[1em]
@@ -1789,7 +1797,7 @@ If $f(z) = u(x,y) + iv(x,y)$ is holomorphic at $z = x + iy$, then $u$ and $v$ ha
 \begin{theorem}[Morera's Theorem]\label{morera}\lecmargin{27}
 Suppose $f$ is continuous on a domain $G$. If
 \[\int_C\,f(z)\,dz = 0\]
-for every closed contour $G$, then $f$ is holomorphic on $G$. 
+for every closed contour $C \subseteq G$, then $f$ is holomorphic on $G$. 
 \end{theorem}
 \begin{proof}
 By Theorem \ref{FTCoCI}, there exists a holomorphic function $F:G \to \cc$ such that $F'(z) = f(z)$ for all $z \in G$. But by Theorem \ref{holsmooth}, $F'$ is holomorphic on $G$, and therefore so is $f$. 

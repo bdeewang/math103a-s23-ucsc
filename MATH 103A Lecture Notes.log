@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.21)  12 JUN 2023 21:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.21)  21 JUN 2023 14:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1902,89 +1902,126 @@ Underfull \hbox (badness 10000) in paragraph at lines 1487--1493
 
  []
 
+<Sections/Illustrations/CG-MCD-Base.png, id=994, 706.43925pt x 402.303pt>
+File: Sections/Illustrations/CG-MCD-Base.png Graphic file (type png)
+<use Sections/Illustrations/CG-MCD-Base.png>
+Package pdftex.def Info: Sections/Illustrations/CG-MCD-Base.png  used on input 
+line 1499.
+(pdftex.def)             Requested size: 282.5707pt x 160.91833pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1500--1503
+Underfull \hbox (badness 10000) in paragraph at lines 1501--1504
 
  []
 
-[81]
-Underfull \hbox (badness 10000) in paragraph at lines 1513--1518
+[81 <./Sections/Illustrations/CG-MCD-Base.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1514--1519
 
  []
 
-[82] [83]
-Underfull \hbox (badness 10000) in paragraph at lines 1583--1584
+<Sections/Illustrations/CG-MCD-Induction.png, id=1002, 913.61325pt x 296.90926p
+t>
+File: Sections/Illustrations/CG-MCD-Induction.png Graphic file (type png)
+<use Sections/Illustrations/CG-MCD-Induction.png>
+Package pdftex.def Info: Sections/Illustrations/CG-MCD-Induction.png  used on i
+nput line 1526.
+(pdftex.def)             Requested size: 456.80551pt x 148.45425pt.
+[82 <./Sections/Illustrations/CG-MCD-Induction.png>] [83]
+Underfull \hbox (badness 10000) in paragraph at lines 1585--1586
 
  []
 
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
-598.
+600.
 (C:\Users\bdeew\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmss.fd
 File: t1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
 [84] [85]
 Package marginnote Info: Margin note 88.1 is on absolute page 88 on input line 
-1686.
+1688.
 Package marginnote Info: right page because not two side mode on input line 168
-6.
-Package marginnote Info: xpos seems to be 153.30647pt on input line 1686.
+8.
+Package marginnote Info: xpos seems to be 153.30647pt on input line 1688.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1688--1691
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1695--1698
+Underfull \hbox (badness 10000) in paragraph at lines 1690--1693
 
  []
 
-[86] [87]
-Underfull \hbox (badness 10000) in paragraph at lines 1755--1761
+
+Underfull \hbox (badness 10000) in paragraph at lines 1697--1700
 
  []
 
-[88]
-Package marginnote Info: Margin note 91.1 is on absolute page 91 on input line 
-1790.
+[86]
+<Sections/Illustrations/Example-3.10.3-3-curve.png, id=1044, 426.393pt x 224.03
+7pt>
+File: Sections/Illustrations/Example-3.10.3-3-curve.png Graphic file (type png)
+
+<use Sections/Illustrations/Example-3.10.3-3-curve.png>
+Package pdftex.def Info: Sections/Illustrations/Example-3.10.3-3-curve.png  use
+d on input line 1704.
+(pdftex.def)             Requested size: 319.79396pt x 168.02733pt.
+<Sections/Illustrations/Example-3.10.3-3-contour.png, id=1045, 443.256pt x 217.
+41225pt>
+File: Sections/Illustrations/Example-3.10.3-3-contour.png Graphic file (type pn
+g)
+<use Sections/Illustrations/Example-3.10.3-3-contour.png>
+Package pdftex.def Info: Sections/Illustrations/Example-3.10.3-3-contour.png  u
+sed on input line 1708.
+(pdftex.def)             Requested size: 332.44118pt x 163.05876pt.
+ [87 <./Sections/Illustrations/Example-3.10.3-3-curve.png> <./Sections/Illustra
+tions/Example-3.10.3-3-contour.png>] [88]
+Underfull \hbox (badness 10000) in paragraph at lines 1763--1769
+
+ []
+
+[89]
+Package marginnote Info: Margin note 92.1 is on absolute page 92 on input line 
+1798.
 Package marginnote Info: right page because not two side mode on input line 179
-0.
-Package marginnote Info: xpos seems to be 254.46132pt on input line 1790.
- [89]
-Underfull \hbox (badness 10000) in paragraph at lines 1838--1844
-
- []
-
-[90]
-Underfull \hbox (badness 10000) in paragraph at lines 1854--1857
+8.
+Package marginnote Info: xpos seems to be 254.46132pt on input line 1798.
+ [90]
+Underfull \hbox (badness 10000) in paragraph at lines 1846--1852
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1873--1878
+Underfull \hbox (badness 10000) in paragraph at lines 1862--1865
 
  []
 
 [91]
-Underfull \hbox (badness 10000) in paragraph at lines 1916--1920
+Underfull \hbox (badness 10000) in paragraph at lines 1881--1886
 
  []
 
-) [92] (Sections/Problems.tex [93] [94]
+<Sections/Illustrations/MMP.png, id=1092, 449.2785pt x 419.76825pt>
+File: Sections/Illustrations/MMP.png Graphic file (type png)
+<use Sections/Illustrations/MMP.png>
+Package pdftex.def Info: Sections/Illustrations/MMP.png  used on input line 189
+6.
+(pdftex.def)             Requested size: 247.10393pt x 230.87325pt.
+[92 <./Sections/Illustrations/MMP.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1914--1918
+
+ []
+
+) [93] (Sections/Problems.tex [94] [95]
 Underfull \hbox (badness 10000) in paragraph at lines 123--125
 
  []
 
-[95] [96] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106]) [107]
-(MATH 103A Lecture Notes.bbl) [108] (MATH 103A Lecture Notes.aux)
+[96] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106] [107]) [108]
+(MATH 103A Lecture Notes.bbl) [109] (MATH 103A Lecture Notes.aux)
 Package rerunfilecheck Info: File `"MATH 103A Lecture Notes".out' has not chang
 ed.
 (rerunfilecheck)             Checksum: A77AE2352777C40EBA2D94ECC86C9B53;5862.
  ) 
 Here is how much of TeX's memory you used:
- 41832 strings out of 476406
- 961606 string characters out of 2789566
+ 41870 strings out of 476406
+ 963214 string characters out of 2789566
  1880787 words of memory out of 3000000
- 60979 multiletter control sequences out of 15000+600000
+ 61009 multiletter control sequences out of 15000+600000
  604022 words of font info for 239 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  105i,18n,118p,1056b,2463s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -2005,9 +2042,9 @@ i8a.pfb><C:/Users/bdeew/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/
 uplr8a.pfb><C:/Users/bdeew/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palati
 no/uplr8a.pfb><C:/Users/bdeew/AppData/Local/Programs/MiKTeX/fonts/type1/urw/pal
 atino/uplri8a.pfb>
-Output written on "MATH 103A Lecture Notes.pdf" (109 pages, 662016 bytes).
+Output written on "MATH 103A Lecture Notes.pdf" (110 pages, 787649 bytes).
 PDF statistics:
- 1404 PDF objects out of 1440 (max. 8388607)
- 414 named destinations out of 1000 (max. 500000)
- 259 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1420 PDF objects out of 1440 (max. 8388607)
+ 415 named destinations out of 1000 (max. 500000)
+ 284 words of extra memory for PDF output out of 10000 (max. 10000000)
 

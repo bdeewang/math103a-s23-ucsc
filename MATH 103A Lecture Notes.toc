@@ -26,5 +26,5 @@
 \contentsline {subsection}{\numberline {3.8}Simply Connected Domains}{79}{subsection.3.8}%
 \contentsline {subsection}{\numberline {3.9}Multiply Connected Domains}{80}{subsection.3.9}%
 \contentsline {subsection}{\numberline {3.10}Cauchy's Integral Formula}{85}{subsection.3.10}%
-\contentsline {subsection}{\numberline {3.11}Liouville's Theorem and the Fundamental Theorem of Algebra}{90}{subsection.3.11}%
-\contentsline {section}{\numberline {A}Problems}{93}{appendix.A}%
+\contentsline {subsection}{\numberline {3.11}Liouville's Theorem and the Fundamental Theorem of Algebra}{91}{subsection.3.11}%
+\contentsline {section}{\numberline {A}Problems}{94}{appendix.A}%
